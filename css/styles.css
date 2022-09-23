@@ -30,6 +30,7 @@ button{
 }
     button:hover{
         background-color: rgb(101, 33, 165);
+        font-size: 110%;
     }
 
 .container{
@@ -38,8 +39,11 @@ button{
 }
 
 header{
-    background-color: aqua; 
+    background-color: rgba(0, 255, 255, 0.212); 
+    width: 100%;
+    height: 35vh;
 }
+
     header .container{
         display: flex;
         flex-direction: column; 
@@ -67,23 +71,40 @@ header{
             }
                 header nav a:hover{
                     font-size: 110%;
-                    color: brown;
+                    color: black;
                     transition: 0.3s ease-in-out;
                 }
 
+#presentacion{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+    #presentacion h2{
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    #presentacion .container .texto{
+        margin: auto 10%;
+    }
+
+
 .inicio{
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 80%;
+    height: 100vh;
     width: 100vw;
     margin: auto;
 }
-    .inicio h1{
-        margin: 40px auto 20px auto;
+    .inicio h2{
+        font-weight: bold;
+        text-align: center;
+        margin: 10px auto 60px auto;
     }
         .inicio .imgProducto img {
             width: 80%;
@@ -97,14 +118,31 @@ header{
                 margin: 0px 20px;
             }
 
-#presentacion{
-    background-color: yellowgreen;  
+
+#sectionCategorias{
+    text-align: center;
 }
 
 #sectionCategorias{
-    background-color: hotpink;  
+    display: flex;
+    justify-content: space-evenly;
 }
+    #sectionCategorias h2{
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+        #sectionCategorias .container .carta{
+            margin: 40px;
+            background-color: aliceblue;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+        #sectionCategorias .container .carta h3, p, button{
+            margin: 20px;
+
+        }
 
 footer{
-    background-color: sandybrown;  
+    font-weight: bold;
+    text-align: center;
 }
