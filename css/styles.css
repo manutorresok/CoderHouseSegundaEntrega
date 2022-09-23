@@ -33,12 +33,12 @@ button{
     }
 
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
 header{
-    background-color: aqua;  
+    background-color: aqua; 
 }
     header .container{
         display: flex;
@@ -46,8 +46,8 @@ header{
         align-items: center;
     }
         header img{
-            height: 100px;
-            width: 120px;
+            height: 80px;
+            width: 100px;
             margin: 20px 0px;
             padding: auto 30px;
             cursor: pointer;
@@ -71,9 +71,31 @@ header{
                     transition: 0.3s ease-in-out;
                 }
 
-#inicio{
+.inicio{
     background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80%;
+    width: 100vw;
+    margin: auto;
 }
+    .inicio h1{
+        margin: 40px auto 20px auto;
+    }
+        .inicio .imgProducto img {
+            width: 80%;
+            height: 80%;
+            margin: auto;
+        }
+            .inicio .botones{
+                margin: 40px auto 80px auto;
+            }
+            .inicio .botones button{
+                margin: 0px 20px;
+            }
 
 #presentacion{
     background-color: yellowgreen;  
