@@ -59,7 +59,7 @@ button{
 header{
     width: 100%;
     margin-top: 5%;
-    background-color: #8a0268;
+/*     background-color: #8a0268; */
 }
 
     header .container{
@@ -71,7 +71,6 @@ header{
         align-items: center;
     }
         header img{
-            background-color: aliceblue;
             height: 80px;
             width: 100px;
             cursor: pointer;
@@ -83,7 +82,7 @@ header{
                 flex-wrap: wrap;
             }
             header nav a{
-                color: #ffffff;
+                color: #000000; /* Color de letra del Navbar */
                 padding: 5px 10px;
                 text-decoration: none;
                 font-weight: bold;
@@ -168,4 +167,8 @@ margin-bottom: 200px;
 footer{
     font-weight: bold;
     text-align: center;
+}
+
+/* Productos */
+.hola{
 }
