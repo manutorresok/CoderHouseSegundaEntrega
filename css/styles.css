@@ -62,8 +62,10 @@ header{
 }
 
     header .container{
+        margin: auto;
         display: flex;
-        flex-direction: column; 
+        flex-direction: row;
+        flex-wrap: wrap; 
         align-items: center;
     }
         header img{
@@ -75,10 +77,12 @@ header{
         }
             header nav{
                 display: flex;
-                flex-direction: column; 
-                text-align: center;
+                flex-direction:row-reverse;
+                justify-content:right;
+                flex-wrap: wrap; 
+                text-align:center;
                 text-decoration: none;
-                margin-bottom: 20px;
+                background-color: #3c165f;
             }
             header nav a{
                 padding: 5px 10px;
